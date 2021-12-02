@@ -1,0 +1,247 @@
+*{
+ margin: 0px;
+padding: 0px;
+box-sizing:border-box;
+}
+.navbar{
+font-weight: 600 !important;
+text-transform: capitalize;
+z-index: 1000;
+
+color: #000000!important;
+
+}
+.navbar img{
+width: 136px;
+height: 36px;
+z-index: 1000;
+
+}
+.navbar button{
+background-color: #FFFFFF!important;
+color: #000000;
+font-weight: 700;z-index: 1000;
+
+
+}
+.navbar button:hover{
+background-color: rgb(76, 175, 80)!important;
+color:#000000;
+font-weight: 700;
+
+
+}
+.navbar a{
+color: #000!important;
+z-index: 1000;
+}
+/*start of home section*/
+.home{
+height:auto;
+}
+.p-home{
+ height: 100%;
+}
+
+
+.imagelayer1{
+background-image: url(../images/business-2.jpg);
+
+background-repeat: no-repeat;
+background-size:100%;
+}
+.layer1{
+    background-color: rgba(0,0,0,.8);
+    height:100%;
+}
+.home h1{
+ font-size: 50px;
+line-height: 1.3em;
+
+}
+.home button{
+margin: 13px 0 0 0;
+border: 2px solid transparent;
+padding: 20px 28px;
+font-weight: bold;
+font-family: 'Open Sans',arial;
+border-color: rgb(40, 167, 69);
+}
+/*end of home section*/
+
+/*start of about section*/
+.about{
+ margin-top: 5%;
+ height:auto;
+}
+.about .faa{
+ color: #4caf50;
+}
+
+/* margin: 100px;*/
+
+.about p{
+    color: #888;
+}
+/*end of about section*/
+
+
+
+
+/*start of services section*/
+.services-card{
+height:auto;
+}
+.services{
+ background: #f8f8f8;
+ background-size: 100%;
+
+}
+.card {
+    
+     transition: all 2s;
+     overflow: hidden;
+     
+     
+}
+.services-card img{
+transition: all 2s;
+}
+
+.services-card img:hover{
+ transition: all 2s;
+transform: scale(1.05,1.05);
+ overflow: hidden;
+}
+
+/*start of secret section*/
+.secret{
+height: auto;
+
+    
+}
+.secret img{
+max-width: 100%;
+height: auto;
+
+}
+.secret .fa-check{
+    color: #4caf50;
+
+}
+.secret button{
+margin: 13px 0 0 0;
+border: 2px solid transparent;
+padding: 20px 28px;
+font-weight: bold;
+font-family: 'Open Sans',arial;
+border-color: rgb(40, 167, 69);
+
+}
+/*end of secret section*/
+
+/*Start of message section*/
+.message{
+ height: auto;
+ background: #f8f8f8;
+}
+.fa-comment{
+  font-size:45px!important;  
+  color: #4caf50;
+}
+
+
+/*`End of message section*/
+
+
+
+  /*`start of additional-value section*/
+.addtional{
+    background-image: url(../images/050E7D0FCC2D4483BD8D506B7D593B7D.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: auto;
+  
+}
+.Additional-value-content{
+ color: #FFFFFF;
+ height: 100%;
+}
+.additional-layer{
+   
+   
+    background-color: rgba(0,0,0,.7);
+    height: auto;
+}
+
+.Additional-value-content button{
+     
+margin: 13px 0 0 0;
+border: 2px solid transparent;
+padding: 20px 28px;
+font-weight: bold;
+font-family: 'Open Sans',arial;
+border-color: rgb(40, 167, 69);
+}
+    /*`End of additional-value section*/
+
+
+          /*`start  of Marks section*/
+.marks img {
+ width: 50%;
+}
+
+.marks{
+height:auto;
+background: #f8f8f8;
+}
+           /*`End  of Marks section*/
+.convinced{
+    
+    
+    background-color: rgb(40, 167, 69);
+}
+
+
+.convinced button{
+    
+margin: 13px 0 0 0;
+border: 2px solid transparent;
+padding: 20px 28px;
+font-weight: bold;
+font-family: 'Open Sans',arial;
+border-color: rgb(40, 167, 69);
+}
+
+
+
+           /*Start  of Footer section*/
+
+footer  {
+color: #58606b;
+font-size: 14px;
+background-color: #1f2021;
+}
+footer h4 {
+color: #58606b;
+font-size: 14px;
+}
+footer h3 {
+
+font-size: 17px;
+color: #FFF;
+}
+
+footer p {
+color: #58606b;
+font-size: 14px;
+}
+
+
+           /*`End  of Footer section*/
+.footer{
+height: auto;
+color: #58606b;
+font-size:20px;
+background-color: #000;
+}
